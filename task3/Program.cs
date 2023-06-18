@@ -1,0 +1,12 @@
+﻿// Задача 3. Напишите программу, которая принимает число и выдаёт, является ли оно чётным.
+
+Console.WriteLine("Введите число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+if (num % 2 == 0)
+{
+    Console.WriteLine($"Число {num} является чётным"); 
+}
+else
+{
+    Console.WriteLine($"Число {num} не является чётным");
+}
